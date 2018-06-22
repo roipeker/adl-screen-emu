@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EmacsSettings">
+    <option name="emacsPath" value="/usr/bin/emacs" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" project-jdk-name="air_sdk" project-jdk-type="Flex SDK Type (new)">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
