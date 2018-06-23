@@ -2,115 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae78a9c6-c0f5-4b65-ba8c-5be198479f4b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/adl-emulator.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenSpecifier.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/DeviceBrands.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAcer.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAlcatel.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAllview.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAmazon.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionApple.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionArchos.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAsus.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBLU.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBQ.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBenQ.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBlackBerry.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBlackview.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCasio.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCat.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCelkon.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCoolpad.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionDell.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionEnergizer.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGarminAsus.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGigabyte.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGionee.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGoogle.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHP.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHTC.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHaier.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHuawei.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionINQ.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionIcemobile.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionImobile.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionIntex.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionKarbonn.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionKyocera.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionLG.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionLava.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionLeEco.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionLenovo.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMaxwest.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMeizu.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMicromax.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMotorola.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionNEC.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionNIU.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionNokia.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionNvidia.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionOnePlus.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionOppo.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionOrange.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPanasonic.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPantech.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionParla.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPhilips.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPlum.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPosh.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPrestigio.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionQMobile.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSamsung.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSharp.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSonim.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSony.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSonyEricsson.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSpice.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionTMobile.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionToshiba.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionUnnecto.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionVertu.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionVerykool.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionVivo.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionVodafone.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionWiko.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionXOLO.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionXiaomi.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYU.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYezz.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYota.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionZTE.as" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/demo/ui/MainScreen.as" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/run_adl.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/run_adl.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/screen-emulator.iml" afterPath="$PROJECT_DIR$/demo.iml" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_nb_center.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_nb_left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_nb_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_sb_left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_sb_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/ios_sb_center.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/ios_sb_left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/ios_sb_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_c1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_c2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_c3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_c4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_nb_ind.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_notch.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_sb_left.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_sb_right.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/sprites.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sprite-sheet/sprites.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenDefinition.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenEmulator.as" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as" />
-      <change beforePath="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesAndroid.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesIOS.as" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/demo/Assets.as" afterPath="$PROJECT_DIR$/src/demo/Assets.as" />
-      <change beforePath="$PROJECT_DIR$/src/demo/Boot.as" afterPath="$PROJECT_DIR$/src/demo/Boot.as" />
-      <change beforePath="$PROJECT_DIR$/src/demo/StarlingRoot.as" afterPath="$PROJECT_DIR$/src/demo/StarlingRoot.as" />
-      <change beforePath="$PROJECT_DIR$/src/demo/ui/DeviceUI.as" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -148,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boot.as" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Boot.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo/Boot.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
+            <state relative-caret-position="1179">
               <caret line="90" column="37" lean-forward="false" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -265,6 +168,7 @@
         <option value="$PROJECT_DIR$/spritesheet/RobotoRegular.fnt" />
         <option value="$PROJECT_DIR$/src/demo/Assets.as" />
         <option value="$PROJECT_DIR$/src/demo/ui/MainScreen.as" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -312,6 +216,12 @@
               <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
               <item name="adl-emulator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
+              <item name="adl-emulator" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
@@ -463,12 +373,12 @@
       <workItem from="1529637649850" duration="14323000" />
       <workItem from="1529704703610" duration="3346000" />
       <workItem from="1529708986036" duration="5401000" />
-      <workItem from="1529714514493" duration="5339000" />
+      <workItem from="1529714514493" duration="5439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28409000" />
+    <option name="totallyTimeSpent" value="28509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="105" y="22" width="1369" height="878" extended-state="0" />
@@ -628,13 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -856,8 +759,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/Boot.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
+        <state relative-caret-position="1179">
           <caret line="90" column="37" lean-forward="false" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
