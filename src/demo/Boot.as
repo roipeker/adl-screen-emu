@@ -1,8 +1,8 @@
 package demo {
 
 import com.roipeker.utils.adl.ScreenEmulator;
-import com.roipeker.utils.adl.collections.ScreenTypesAndroid;
-import com.roipeker.utils.adl.collections.ScreenTypesIOS;
+import com.roipeker.utils.adl.collections.DeviceBrands;
+import com.roipeker.utils.adl.ui.DeviceUI;
 
 import flash.display.Sprite;
 import flash.display.StageAlign;
@@ -33,7 +33,8 @@ public class Boot extends Sprite {
 
         // For size arguments details, check screen.constrainADLSize()
         screen.init(stage, -20, -20, true, ScreenEmulator.ORIENTATION_ANY);
-        screen.emulate(ScreenTypesIOS.iphone_6);
+
+        screen.emulate(DeviceBrands.apple.iphone_6);
 
         starling = new Starling(StarlingRoot, stage, screen.getViewPort());
         starling.stage.stageWidth = screen.stageWidthPoints;
@@ -52,39 +53,42 @@ public class Boot extends Sprite {
     private function onKeyDown(event:KeyboardEvent):void {
         switch (event.keyCode) {
             case Keyboard.NUMBER_1:
-                screen.emulate(ScreenTypesIOS.iphone_x);
+                screen.emulate(DeviceBrands.apple.iphone_x);
                 break;
             case Keyboard.NUMBER_2:
-                screen.emulate(ScreenTypesIOS.iphone_6_plus);
+                screen.emulate(DeviceBrands.apple.iphone_6_plus);
                 break;
             case Keyboard.NUMBER_3:
-                screen.emulate(ScreenTypesIOS.iphone_5);
+                screen.emulate(DeviceBrands.apple.iphone_5);
                 break;
             case Keyboard.NUMBER_4:
-                screen.emulate(ScreenTypesIOS.ipad_air_2);
+                screen.emulate(DeviceBrands.apple.ipad_air_2);
                 break;
             case Keyboard.NUMBER_5:
-                screen.emulate(ScreenTypesIOS.ipad_pro_10_5);
+                screen.emulate(DeviceBrands.apple.ipad_pro_10_5_2017);
                 break;
             case Keyboard.NUMBER_6:
-                screen.emulate(ScreenTypesIOS.ipad_pro_12_9);
+                screen.emulate(DeviceBrands.apple.ipad_pro_12_9_2017);
                 break;
             case Keyboard.NUMBER_7:
-                screen.emulate(ScreenTypesAndroid.google_pixel);
+                screen.emulate(DeviceBrands.google.pixel);
                 break;
             case Keyboard.NUMBER_8:
-                screen.emulate(ScreenTypesAndroid.htc_one);
+                screen.emulate(DeviceBrands.htc.one);
                 break;
             case Keyboard.NUMBER_9:
-                screen.emulate(ScreenTypesAndroid.samsung_nexus_10);
+                screen.emulate(DeviceBrands.samsung.google_nexus_10_p8110);
                 break;
             case Keyboard.NUMBER_0:
-                screen.emulate(ScreenTypesAndroid.samsung_galaxy_note_3);
+                screen.emulate(DeviceBrands.samsung.galaxy_note_3);
                 break;
             case Keyboard.SPACE:
                 if (stage.autoOrients) {
                     screen.isLandscape() ? screen.portrait() : screen.landscape();
                 }
+                break;
+            case Keyboard.S:
+                DeviceUI.instance.debugIPhoneXSize = !DeviceUI.instance.debugIPhoneXSize ;
                 break;
         }
     }

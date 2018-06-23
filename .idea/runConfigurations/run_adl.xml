@@ -22,7 +22,7 @@
       </LauncherParameters>
     </option>
     <option name="mobileRunTarget" value="Emulator" />
-    <option name="moduleName" value="screen-emulator" />
+    <option name="moduleName" value="demo" />
     <option name="overriddenMainClass" value="" />
     <option name="overriddenOutputFileName" value="" />
     <option name="overrideMainClass" value="false" />

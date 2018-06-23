@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/screen-emulator.iml" filepath="$PROJECT_DIR$/screen-emulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adl-emulator/adl-emulator.iml" filepath="$PROJECT_DIR$/adl-emulator/adl-emulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
     </modules>
   </component>
 </project>

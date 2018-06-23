@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="mobile">
+    <configurations>
+      <configuration name="mobile" target-platform="Mobile" pure-as="true" main-class="demo.Boot" output-file="app.swf" output-folder="$MODULE_DIR$/bin-debug">
+        <dependencies target-player="30.0">
+          <entries>
+            <entry library-id="31ecdf6f-b3ea-4265-abd1-1dae518b9411">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="adl-emulator" build-configuration-name="swc">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="air_sdk_30.0.0.107" />
+        </dependencies>
+        <compiler-options>
+          <option name="resourceFilesMode" value="None" />
+          <option name="additionalOptions" value="-swf-version=37" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/descriptor.xml" package-file-name="demo" />
+        <packaging-ios package-file-name="Boot" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/bin-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/sprite-sheet" />
+      <excludeFolder url="file://$MODULE_DIR$/spritesheet" />
+    </content>
+    <orderEntry type="jdk" jdkName="air_sdk_30.0.0.107" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="31ecdf6f-b3ea-4265-abd1-1dae518b9411" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="adl-emulator" exported="" />
+  </component>
+</module>

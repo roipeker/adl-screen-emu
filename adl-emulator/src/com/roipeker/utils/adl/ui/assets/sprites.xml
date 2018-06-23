@@ -1,0 +1,18 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="and_nb_center" x="76" y="294" width="40" height="40"/>
+	<SubTexture name="and_nb_left" x="76" y="335" width="37" height="41"/>
+	<SubTexture name="and_nb_right" x="76" y="377" width="36" height="36"/>
+	<SubTexture name="and_sb_left" x="0" y="169" width="124" height="25"/>
+	<SubTexture name="and_sb_right" x="0" y="72" width="195" height="30"/>
+	<SubTexture name="ios_sb_center" x="0" y="422" width="47" height="18"/>
+	<SubTexture name="ios_sb_left" x="0" y="103" width="161" height="19"/>
+	<SubTexture name="ios_sb_right" x="0" y="148" width="130" height="20"/>
+	<SubTexture name="iphx_c1" x="0" y="271" width="75" height="75"/>
+	<SubTexture name="iphx_c2" x="0" y="195" width="75" height="75"/>
+	<SubTexture name="iphx_c3" x="76" y="195" width="75" height="74"/>
+	<SubTexture name="iphx_c4" x="0" y="347" width="75" height="74"/>
+	<SubTexture name="iphx_nb_ind" x="0" y="61" width="268" height="10"/>
+	<SubTexture name="iphx_notch" x="0" y="0" width="442" height="60"/>
+	<SubTexture name="iphx_sb_left" x="76" y="270" width="60" height="23"/>
+	<SubTexture name="iphx_sb_right" x="0" y="123" width="134" height="24"/>
+</TextureAtlas>

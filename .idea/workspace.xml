@@ -2,7 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae78a9c6-c0f5-4b65-ba8c-5be198479f4b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/adl-emulator.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenSpecifier.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/DeviceBrands.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAcer.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAlcatel.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAllview.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAmazon.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionApple.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionArchos.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAsus.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBLU.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBQ.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBenQ.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBlackBerry.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBlackview.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCasio.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCat.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCelkon.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCoolpad.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionDell.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionEnergizer.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGarminAsus.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGigabyte.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGionee.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGoogle.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHP.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHTC.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHaier.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHuawei.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionINQ.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionIcemobile.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionImobile.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionIntex.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionKarbonn.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionKyocera.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionLG.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionLava.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionLeEco.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionLenovo.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMaxwest.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMeizu.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMicromax.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMotorola.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionNEC.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionNIU.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionNokia.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionNvidia.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionOnePlus.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionOppo.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionOrange.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPanasonic.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPantech.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionParla.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPhilips.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPlum.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPosh.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionPrestigio.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionQMobile.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSamsung.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSharp.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSonim.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSony.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSonyEricsson.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSpice.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionTMobile.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionToshiba.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionUnnecto.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionVertu.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionVerykool.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionVivo.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionVodafone.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionWiko.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionXOLO.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionXiaomi.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYU.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYezz.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYota.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionZTE.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/demo/ui/MainScreen.as" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/run_adl.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/run_adl.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/screen-emulator.iml" afterPath="$PROJECT_DIR$/demo.iml" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_nb_center.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_nb_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_nb_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_sb_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/and_sb_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/ios_sb_center.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/ios_sb_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/ios_sb_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_c1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_c2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_c3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_c4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_nb_ind.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_notch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_sb_left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/iphx_sb_right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/sprites.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sprite-sheet/sprites.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenDefinition.as" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenEmulator.as" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as" />
+      <change beforePath="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesAndroid.as" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesIOS.as" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/demo/Assets.as" afterPath="$PROJECT_DIR$/src/demo/Assets.as" />
+      <change beforePath="$PROJECT_DIR$/src/demo/Boot.as" afterPath="$PROJECT_DIR$/src/demo/Boot.as" />
+      <change beforePath="$PROJECT_DIR$/src/demo/StarlingRoot.as" afterPath="$PROJECT_DIR$/src/demo/StarlingRoot.as" />
+      <change beforePath="$PROJECT_DIR$/src/demo/ui/DeviceUI.as" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,91 +121,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="StarlingRoot.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo/StarlingRoot.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="473">
+              <caret line="59" column="69" lean-forward="false" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#279#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boot.as" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeviceUI.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="105" column="40" lean-forward="false" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+              <folding>
+                <element signature="e#300#345#0" expanded="true" />
+                <element signature="e#13710#13743#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Boot.as" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/Boot.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-              <folding>
-                <element signature="e#16#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assets.as" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/demo/Assets.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="e#279#312#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sprites.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sprite-sheet/sprites.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="1185">
+              <caret line="90" column="37" lean-forward="false" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScreenTypesAndroid.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesAndroid.as">
+      <file leaf-file-name="descriptor.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/descriptor.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="270" column="5" lean-forward="false" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assets.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../libs/as3/WebViewANE/example/src/Assets.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebViewANESample.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../libs/as3/WebViewANE/example/src/WebViewANESample.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="28" column="43" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="28" selection-end-column="43" />
+            <state relative-caret-position="1890">
+              <caret line="126" column="30" lean-forward="false" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -114,29 +179,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_app</find>
-      <find>minADLWindowsSize</find>
-      <find>_isADLMobile</find>
-      <find>starlingNormalizedScale</find>
-      <find>Starling</find>
-      <find>changeEvent</find>
-      <find>dispatchEve</find>
-      <find>Emu</find>
-      <find>emu</find>
-      <find>screen</find>
-      <find>navbar</find>
-      <find>doc</find>
-      <find>navbar_btns</find>
-      <find>and_nb_imgs</find>
-      <find>iphone x</find>
-      <find>463</find>
-      <find>statusbarIOS</find>
-      <find>lg_g</find>
-      <find>.png</find>
-      <find>iphoneXDevice</find>
-      <find>statusbar_bg</find>
+      <find>points</find>
+      <find>getTexture</find>
+      <find>trace</find>
+      <find>mainscreen</find>
+      <find>fontFace</find>
+      <find>autoSize</find>
+      <find>copyText_tf</find>
+      <find>_statusbarStyle</find>
+      <find>statusbar</find>
+      <find>navbar_bg.visible</find>
+      <find>navbar_bg</find>
+      <find>iphx_sb_imgs[3]</find>
+      <find>debugIPhoneXSize</find>
+      <find>iphoneXHomeIndicatorColor</find>
+      <find>STATUSBAR_DARK</find>
+      <find>statusbarStyle</find>
       <find>_navbarHeight</find>
+      <find>_sw</find>
+      <find>4</find>
+      <find>iphx_sb_imgs</find>
+      <find>iphx_nb_ind</find>
+      <find>iphx_sb_imgs[2]</find>
+      <find>iphx_sb_imgs[6]</find>
+      <find>iphx_sb_imgs[4]</find>
+      <find>onDeviceChanged</find>
+      <find>title_tf</find>
+      <find>checkIcon</find>
+      <find>.png</find>
+      <find>card_bg</find>
+      <find>card</find>
     </findStrings>
+    <replaceStrings>
+      <replace>;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -149,7 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenDefinition.as" />
         <option value="$PROJECT_DIR$/../../libs/as3/WebViewANE/example/src/Assets.as" />
         <option value="$PROJECT_DIR$/sprite-sheet/spritesheet.xml" />
         <option value="$PROJECT_DIR$/src/StarlingRoot.as" />
@@ -157,14 +232,39 @@
         <option value="$PROJECT_DIR$/src/Assets.as" />
         <option value="$PROJECT_DIR$/sprite-sheet/sprites.xml" />
         <option value="$PROJECT_DIR$/descriptor.xml" />
-        <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenEmulator.as" />
         <option value="$PROJECT_DIR$/src/DeviceUI.as" />
         <option value="$PROJECT_DIR$/src/demo/DeviceUI.as" />
-        <option value="$PROJECT_DIR$/src/demo/StarlingRoot.as" />
-        <option value="$PROJECT_DIR$/src/demo/Boot.as" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/brands/CollectionBQ.as" />
+        <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenDefinition.as" />
+        <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/DeviceBrands.as" />
+        <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/brands/CollectionAcer.as" />
+        <option value="$PROJECT_DIR$/src/demo/MyDeviceCollection.as" />
+        <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/brands/CollectionApple.as" />
+        <option value="$PROJECT_DIR$/src/demo/ScreenSpecifier.as" />
+        <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenEmulator.as" />
+        <option value="$PROJECT_DIR$/src/demo/ui/DeviceUI.as" />
+        <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenSpecifier.as" />
+        <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as" />
+        <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYezz.as" />
+        <option value="$PROJECT_DIR$/bin-assets/sprites.xml" />
+        <option value="$PROJECT_DIR$/bin-assets/Roboto-Medium.fnt" />
+        <option value="$PROJECT_DIR$/src/demo/assets/Roboto-Regular.fnt" />
+        <option value="$PROJECT_DIR$/src/demo/assets/Roboto-Bold.fnt" />
+        <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/assets/sprites.xml" />
+        <option value="$PROJECT_DIR$/src/demo/Boot.as" />
+        <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as" />
+        <option value="$PROJECT_DIR$/src/demo/StarlingRoot.as" />
+        <option value="$PROJECT_DIR$/src/demo/assets/sprites.xml" />
+        <option value="$PROJECT_DIR$/src/demo/assets/RobotoBold.fnt" />
+        <option value="$PROJECT_DIR$/src/demo/assets/RobotoMedium.fnt" />
+        <option value="$PROJECT_DIR$/src/demo/assets/RobotoRegular.fnt" />
+        <option value="$PROJECT_DIR$/spritesheet/RobotoBold.fnt" />
+        <option value="$PROJECT_DIR$/spritesheet/RobotoMedium.fnt" />
+        <option value="$PROJECT_DIR$/spritesheet/RobotoRegular.fnt" />
         <option value="$PROJECT_DIR$/src/demo/Assets.as" />
+        <option value="$PROJECT_DIR$/src/demo/ui/MainScreen.as" />
       </list>
     </option>
   </component>
@@ -176,7 +276,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="90" />
+    <option name="x" value="105" />
     <option name="y" value="22" />
     <option name="width" value="1369" />
     <option name="height" value="878" />
@@ -199,10 +299,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,37 +311,17 @@
             <path>
               <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="adl-emulator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
+              <item name="spritesheet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="roipeker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="roipeker" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="roipeker" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="adl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
@@ -253,12 +331,28 @@
             </path>
             <path>
               <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,13 +372,21 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/brands" />
+      <recent name="$PROJECT_DIR$/src/demo" />
+      <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections" />
+    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="demo" />
+      <recent name="demo.ui" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/demo/ui" />
-      <recent name="$PROJECT_DIR$/src/demo" />
+      <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl" />
       <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections" />
+      <recent name="$PROJECT_DIR$/src/demo" />
+      <recent name="$PROJECT_DIR$/src/demo/ui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -320,6 +422,18 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="screen-emulator" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -346,44 +460,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529637648463</updated>
-      <workItem from="1529637649850" duration="12262000" />
+      <workItem from="1529637649850" duration="14323000" />
+      <workItem from="1529704703610" duration="3346000" />
+      <workItem from="1529708986036" duration="5401000" />
+      <workItem from="1529714514493" duration="5339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12262000" />
+    <option name="totallyTimeSpent" value="28409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="22" width="1369" height="878" extended-state="0" />
+    <frame x="105" y="22" width="1369" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="205" y="122" width="1169" height="678" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2245667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28421053" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,27 +517,117 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/screen-emulator.iml">
+    <entry file="file://$PROJECT_DIR$/sprite-sheet/sprites.xml" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesAndroid.as" />
+    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesIOS.as" />
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAllview.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="-3367">
+          <caret line="215" column="34" lean-forward="false" selection-start-line="215" selection-start-column="34" selection-end-line="215" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAcer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMotorola.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="857" column="5" lean-forward="true" selection-start-line="857" selection-start-column="5" selection-end-line="857" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionKyocera.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHaier.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGigabyte.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2107">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/MyDeviceCollection.as" />
+    <entry file="jar://$PROJECT_DIR$/../../../sdks/air/air_sdk_30.0.0.107/frameworks/libs/air/airglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="3461" column="47" lean-forward="false" selection-start-line="3461" selection-start-column="45" selection-end-line="3461" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../libs/as3/WebViewANE/example/WebViewANESample.iml">
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCoolpad.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1432">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBQ.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAmazon.as">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBlackBerry.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionApple.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="181" column="82" lean-forward="false" selection-start-line="181" selection-start-column="79" selection-end-line="181" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../libs/as3/WebViewANE/example/src/WebViewANESample.as">
+    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenDefinition.as" />
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGoogle.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="43" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="28" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="375">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -427,110 +635,153 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSpice.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionUnnecto.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-982">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYezz.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAlcatel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1901">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/DeviceBrands.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-assets/sprites.xml" />
+    <entry file="file://$PROJECT_DIR$/bin-assets/Roboto-Medium.fnt" />
     <entry file="jar://$PROJECT_DIR$/libs/starling.swc!/library.swf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="1526" column="29" lean-forward="false" selection-start-line="1526" selection-start-column="29" selection-end-line="1526" selection-end-column="29" />
+        <state relative-caret-position="320">
+          <caret line="4081" column="34" lean-forward="true" selection-start-line="4081" selection-start-column="34" selection-end-line="4081" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenDefinition.as">
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/Roboto-Regular.fnt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../libs/as3/WebViewANE/example/src/Assets.as">
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/Roboto-Medium.fnt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprite-sheet/spritesheet.xml">
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/Roboto-Bold.fnt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprite-sheet/iphonex_sb.png">
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/assets/sprites.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesAndroid.as">
+    <entry file="file://$PROJECT_DIR$/descriptor.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="270" column="5" lean-forward="false" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
+        <state relative-caret-position="1890">
+          <caret line="126" column="30" lean-forward="false" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprite-sheet/sprites.xml">
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="1113">
+          <caret line="396" column="24" lean-forward="false" selection-start-line="396" selection-start-column="24" selection-end-line="396" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesIOS.as">
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenSpecifier.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="115" column="58" lean-forward="false" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="58" />
+        <state relative-caret-position="154">
+          <caret line="113" column="81" lean-forward="false" selection-start-line="113" selection-start-column="75" selection-end-line="113" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenEmulator.as">
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="333" column="0" lean-forward="false" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/ui/DeviceUI.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="134" column="59" lean-forward="false" selection-start-line="134" selection-start-column="59" selection-end-line="134" selection-end-column="59" />
+        <state relative-caret-position="489">
+          <caret line="105" column="40" lean-forward="false" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
           <folding>
-            <element signature="e#298#345#0" expanded="false" />
+            <element signature="e#300#345#0" expanded="true" />
+            <element signature="e#13710#13743#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/StarlingRoot.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        <state relative-caret-position="473">
+          <caret line="59" column="69" lean-forward="false" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="e#279#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/descriptor.xml">
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/assets/sprites.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="150">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/sprites copy.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/RobotoMedium.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/RobotoRegular.fnt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/RobotoMedium.fnt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
@@ -538,34 +789,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/Boot.as">
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/RobotoBold.fnt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-          <folding>
-            <element signature="e#16#61#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/sprites.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/sprites.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spritesheet/RobotoBold.fnt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spritesheet/RobotoMedium.fnt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spritesheet/RobotoRegular.fnt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo/Assets.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="340">
+          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
           <folding>
-            <element signature="e#279#312#0" expanded="true" />
+            <element signature="e#280#327#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/ui/MainScreen.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#282#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/Boot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="90" column="37" lean-forward="false" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +915,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mobile|screen-emulator</last-edited>
+          <last-edited>swc|adl-emulator</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

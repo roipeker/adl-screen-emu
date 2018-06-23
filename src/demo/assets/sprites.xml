@@ -1,0 +1,5 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="RobotoBold" x="0" y="279" width="286" height="296"/>
+	<SubTexture name="RobotoMedium" x="0" y="0" width="299" height="278"/>
+	<SubTexture name="RobotoRegular" x="287" y="279" width="280" height="299"/>
+</TextureAtlas>
