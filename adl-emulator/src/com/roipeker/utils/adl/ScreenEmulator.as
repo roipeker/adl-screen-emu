@@ -5,6 +5,7 @@
 // =================================================================================================
 
 package com.roipeker.utils.adl {
+import flash.display.LoaderInfo;
 import flash.display.Stage;
 import flash.display.StageAlign;
 import flash.display.StageAspectRatio;
@@ -33,7 +34,9 @@ public class ScreenEmulator extends EventDispatcher {
     // which uses the computer's monitor resolutionX / resolutionY.
     // if your resolution is 1920 x 1080, and ::defaultADLConstrainMargin is 100.
     // the max viewport size will be 1720 x 880.
-    public static var defaultADLConstrainMargin:uint = 60;
+    // considere that using useDeviceDensityForWindowSize can round up to a small window size.
+    // so better use the ::maxADLW, ::maxADLH arguments on init() passing negative (relative) values.
+    public static var defaultADLConstrainMargin:uint = 40;
 
     public static const minADLWindowsSize:uint = 100;
 
@@ -80,11 +83,16 @@ public class ScreenEmulator extends EventDispatcher {
     private var _useDeviceDensityForWindowSize:Boolean;
 
     private var _isWindowsOS:Boolean;
+    private var _isLoaderInfoComplete:Boolean;
 
     public function ScreenEmulator() {
     }
 
     public function init(stage:Stage, maxADLWidth:int = 0, maxADLHeight:int = 0, useDeviceDensityForWindowSize:Boolean = true, customOrientation:int = ORIENTATION_ANY):void {
+        if (_stage) {
+            trace("ScreenEmulator already initialized.");
+            return;
+        }
         _stage = stage;
 
         // required to make the hack work.
@@ -100,7 +108,6 @@ public class ScreenEmulator extends EventDispatcher {
 
         // TODO: maybe this trick to detect "adl" is not enough.
         _isADLMobile = Capabilities.screenResolutionX != _stage.fullScreenWidth;
-
         _isWindowsOS = Capabilities.os.indexOf("Windows") > -1;
 
         monitorResolutionX = Capabilities.screenResolutionX;
@@ -114,7 +121,44 @@ public class ScreenEmulator extends EventDispatcher {
         }
 
         constrainADLSize(maxADLWidth, maxADLHeight);
+        var info:LoaderInfo = stage.loaderInfo.content.loaderInfo;
+        _isLoaderInfoComplete = info.contentType != null;
+        initDensityBuckets();
 
+        if (!_isLoaderInfoComplete) {
+            info.addEventListener(Event.COMPLETE, onLoaderInfoComplete, false, 1000, true);
+        } else {
+            onLoaderInfoComplete(null);
+        }
+    }
+
+    private function onLoaderInfoComplete(event:Event):void {
+        _stage.addEventListener(Event.RESIZE, onStageResize, true, 100000);
+        _stage.addEventListener(StageOrientationEvent.ORIENTATION_CHANGING, onStageOrientationChange, true, 100000);
+        _stage.addEventListener(StageOrientationEvent.ORIENTATION_CHANGE, onStageOrientationChange, true, 100000);
+
+        _isLoaderInfoComplete = true;
+        // only available AFTER loaderInfoComplete...
+        // stage will dispatch a resize event (or 2 if in landscape mode).
+        // Force normal stage displayState in order to resize adl window.
+        if (_stage.displayState != StageDisplayState.NORMAL) {
+            _stage.displayState = StageDisplayState.NORMAL;
+        }
+
+        // pending device emulation ?
+        if (event) {
+            event.currentTarget.removeEventListener(event.type, onLoaderInfoComplete);
+        }
+        if (_device) {
+            calculateDeviceProportion();
+            applyDeviceSize();
+        }
+    }
+
+    private function initDensityBuckets():void {
+        if (_densityBuckets) {
+            return;
+        }
         _densityScale = 1;
         _densityBuckets = [
             {dpi: 120, scale: .75}, // ldpi
@@ -128,16 +172,6 @@ public class ScreenEmulator extends EventDispatcher {
             {dpi: 493, scale: 3.5}, // Google devices (nexus/pixel)
             {dpi: 640, scale: 4} // xxxhdpi = 4k
         ];
-
-        _stage.addEventListener(Event.RESIZE, onStageResize, true, 100000);
-
-        _stage.addEventListener(StageOrientationEvent.ORIENTATION_CHANGING, onStageOrientationChange, true, 100000);
-        _stage.addEventListener(StageOrientationEvent.ORIENTATION_CHANGE, onStageOrientationChange, true, 100000);
-
-        // Force normal stage displayState in order to resize adl window.
-        if (_stage.displayState != StageDisplayState.NORMAL) {
-            _stage.displayState = StageDisplayState.NORMAL;
-        }
     }
 
     public function get screenDPI():Number {
@@ -161,6 +195,7 @@ public class ScreenEmulator extends EventDispatcher {
             offsetX = -maxADLWidth;
         } else if (maxADLWidth <= minADLWindowsSize) {
             offsetX = defaultADLConstrainMargin;
+            trace("applying offset:", offsetX , defaultADLConstrainMargin, minADLWindowsSize);
         }
 
         if (maxADLHeight < 0) {
@@ -168,9 +203,9 @@ public class ScreenEmulator extends EventDispatcher {
         } else if (maxADLHeight <= minADLWindowsSize) {
             offsetY = defaultADLConstrainMargin;
         }
-
         _maxADLW = offsetX == 0 ? maxADLWidth : monitorResolutionX - offsetX * 2;
         _maxADLH = offsetY == 0 ? maxADLHeight : monitorResolutionY - offsetY * 2;
+        trace("monitorResolutionX", _maxADLW, _maxADLH );
     }
 
     private function onStageOrientationChange(event:StageOrientationEvent):void {
@@ -211,11 +246,25 @@ public class ScreenEmulator extends EventDispatcher {
      * @param screen
      */
     public function emulate(screen:ScreenSpecifier) {
+        if (screen == null) {
+            return;
+        }
         if (_device == screen) {
             return;
         }
         _device = screen;
         calculateDensity(_device.dpi);
+        if (!_stage) {
+            trace("ScreenEmulator warning: remember to call ::init()");
+            return;
+        }
+        calculateDeviceProportion();
+        if (_isLoaderInfoComplete) {
+            applyDeviceSize();
+        }
+    }
+
+    private function calculateDeviceProportion():void {
 
         // keeps the current orientation....
         if (_useDeviceDensityForWindowSize) {
@@ -223,6 +272,10 @@ public class ScreenEmulator extends EventDispatcher {
             var tw:int = _device.w;
             var th:int = _device.h;
             var divider:Number = _densityScale;
+            /// device density with @1x, will end on endless loop, so scale down by 50% as minimum.
+            if( divider <= 1 ) {
+                divider = 2 ;
+            }
             if (_customOrientation == ORIENTATION_LANDSCAPE) {
                 while (_maxADLH < th || _maxADLW < tw) {
                     th /= divider;
@@ -251,7 +304,9 @@ public class ScreenEmulator extends EventDispatcher {
             _adlW = _device.w * windowScale;
             _adlH = _device.h * windowScale;
         }
+    }
 
+    private function applyDeviceSize():void {
         if (hasEventListener(changeEvent.type))
             dispatchEvent(changeEvent);
 
@@ -280,6 +335,9 @@ public class ScreenEmulator extends EventDispatcher {
     }
 
     private function getDensityScale(dpi:uint):Number {
+        if (_densityBuckets == null) {
+            initDensityBuckets();
+        }
         var bucket:Object = _densityBuckets[0];
         if (dpi <= bucket.dpi) {
             return bucket.scale;
@@ -300,6 +358,9 @@ public class ScreenEmulator extends EventDispatcher {
     }
 
     public function resizeStage(sw:int, sh:int):void {
+        if( !_stage ){
+            return ;
+        }
         // when resizing ADL on Windows OS, and using <requestedDisplayResolution>true</requestedDisplayResolution>,
         // seems like adl window's height does not supports odd values.
         // So the RESIZE event is captured and stopped by ScreenEmulator, and never dispatched back.
@@ -335,6 +396,9 @@ public class ScreenEmulator extends EventDispatcher {
     }
 
     public function isLandscape():Boolean {
+        if(!_stage) {
+            return false ;
+        }
         if (_customOrientation == ORIENTATION_LANDSCAPE) return true;
         else if (_customOrientation == ORIENTATION_PORTRAIT) return false;
         else {
@@ -355,11 +419,12 @@ public class ScreenEmulator extends EventDispatcher {
     }
 
     public function landscape():void {
+        if(!_stage) return ;
         _stage.setOrientation(StageOrientation.ROTATED_LEFT);
     }
 
     public function portrait():void {
-//        _stage.setOrientation(_eventOrientation);
+        if(!_stage) return ;
         _stage.setOrientation(StageOrientation.DEFAULT);
     }
 

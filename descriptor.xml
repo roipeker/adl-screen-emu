@@ -22,7 +22,7 @@
         <visible>true</visible>
 
         <!-- The aspect ratio of the app ("portrait" or "landscape" or "any"). Optional. Mobile only. Default is the natural orientation of the device -->
-        <aspectRatio>landscape</aspectRatio>
+        <aspectRatio>any</aspectRatio>
 
         <!-- Whether the app will begin auto-orienting on launch. Optional. Mobile only. Default false -->
         <autoOrients>true</autoOrients>

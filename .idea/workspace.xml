@@ -2,8 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae78a9c6-c0f5-4b65-ba8c-5be198479f4b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/feathers_demo.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/feathers-demo.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/AppHelper.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/ComponentsExplorer.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/Main.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/ScreenID.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/DataGridSettings.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/DateTimeSpinnerSettings.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/EmbeddedAssets.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/GroupedListSettings.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/ItemRendererSettings.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/ListSettings.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/NumericStepperSettings.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/SliderSettings.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/AlertScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/AutoCompleteScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/ButtonGroupScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/ButtonScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/CalloutScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/CheckScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/DataGridScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/DataGridSettingsScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/DateTimeSpinnerScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/DateTimeSpinnerSettingsScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/GroupedListScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/GroupedListSettingsScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/ItemRendererScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/ItemRendererSettingsScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/LabelScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/ListScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/ListSettingsScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/MainMenuScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/NumericStepperScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/NumericStepperSettingsScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/PageIndicatorScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/PanelComponentScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/PickerListScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/ProgressBarScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/RadioScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/ScrollTextScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/SliderScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/SliderSettingsScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/SpinnerListScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/TabBarScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/TextCalloutScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/TextInputScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/ToggleSwitchScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/TreeScreen.as" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/screens/WebViewScreen.as" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/adl-emulator/bin/adl-emulator.swc" afterPath="$PROJECT_DIR$/adl-emulator/bin/adl-emulator.swc" />
+      <change beforePath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as" />
+      <change beforePath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as" afterPath="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" afterPath="$PROJECT_DIR$/demo.iml" />
+      <change beforePath="$PROJECT_DIR$/descriptor.xml" afterPath="$PROJECT_DIR$/descriptor.xml" />
+      <change beforePath="$PROJECT_DIR$/src/demo/Boot.as" afterPath="$PROJECT_DIR$/src/demo/Boot.as" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +75,8 @@
       <file leaf-file-name="StarlingRoot.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo/StarlingRoot.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="59" column="69" lean-forward="false" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+            <state relative-caret-position="726">
+              <caret line="52" column="63" lean-forward="false" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#279#324#0" expanded="true" />
@@ -28,45 +85,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Boot.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/demo/Boot.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DeviceUI.as" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="105" column="40" lean-forward="false" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+            <state relative-caret-position="156">
+              <caret line="223" column="31" lean-forward="false" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="31" />
               <folding>
                 <element signature="e#300#345#0" expanded="true" />
-                <element signature="e#13710#13743#0" expanded="true" />
+                <element signature="e#14726#14759#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boot.as" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/demo/Boot.as">
+      <file leaf-file-name="Main.as" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/Main.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1179">
-              <caret line="90" column="37" lean-forward="false" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="descriptor.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/descriptor.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="126" column="30" lean-forward="false" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="2841">
+              <caret line="224" column="24" lean-forward="true" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
+              <folding>
+                <element signature="e#47#92#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,39 +141,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>points</find>
-      <find>getTexture</find>
+      <find>navbar.visible</find>
+      <find>statusbar.vis</find>
+      <find>_showStatusbar</find>
+      <find>File.applicationDirectory</find>
+      <find>adlBinFolderName</find>
+      <find>init</find>
+      <find>starling_rootCreatedHandler</find>
+      <find>_useDeviceDensityForWindowSize</find>
+      <find>_customOrientation</find>
+      <find>_isLoaderInfoComplete</find>
+      <find>stage resize</find>
+      <find>_stage</find>
+      <find>divider</find>
+      <find>Orientation changeee</find>
+      <find>maxADLWidth</find>
+      <find>offsetY</find>
+      <find>Capabilities.screenResolutionY</find>
+      <find>_launchImage</find>
+      <find>_screen</find>
+      <find>enters</find>
+      <find>_scaler</find>
+      <find>stage_resize</find>
+      <find>rootScreenID</find>
+      <find>_menu</find>
+      <find>createScreens</find>
+      <find>mainMenu_phoneChangeHandler</find>
+      <find>\\\</find>
+      <find>_navigator</find>
+      <find>mainMenuItem</find>
       <find>trace</find>
-      <find>mainscreen</find>
-      <find>fontFace</find>
-      <find>autoSize</find>
-      <find>copyText_tf</find>
-      <find>_statusbarStyle</find>
-      <find>statusbar</find>
-      <find>navbar_bg.visible</find>
-      <find>navbar_bg</find>
-      <find>iphx_sb_imgs[3]</find>
-      <find>debugIPhoneXSize</find>
-      <find>iphoneXHomeIndicatorColor</find>
-      <find>STATUSBAR_DARK</find>
-      <find>statusbarStyle</find>
-      <find>_navbarHeight</find>
-      <find>_sw</find>
-      <find>4</find>
-      <find>iphx_sb_imgs</find>
-      <find>iphx_nb_ind</find>
-      <find>iphx_sb_imgs[2]</find>
-      <find>iphx_sb_imgs[6]</find>
-      <find>iphx_sb_imgs[4]</find>
-      <find>onDeviceChanged</find>
-      <find>title_tf</find>
-      <find>checkIcon</find>
-      <find>.png</find>
-      <find>card_bg</find>
-      <find>card</find>
     </findStrings>
     <replaceStrings>
       <replace>;</replace>
+      <replace>resolutionY</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -134,11 +194,9 @@
         <option value="$PROJECT_DIR$/src/Boot.as" />
         <option value="$PROJECT_DIR$/src/Assets.as" />
         <option value="$PROJECT_DIR$/sprite-sheet/sprites.xml" />
-        <option value="$PROJECT_DIR$/descriptor.xml" />
         <option value="$PROJECT_DIR$/src/DeviceUI.as" />
         <option value="$PROJECT_DIR$/src/demo/DeviceUI.as" />
         <option value="$PROJECT_DIR$/LICENSE" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/brands/CollectionBQ.as" />
         <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenDefinition.as" />
         <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/DeviceBrands.as" />
@@ -149,15 +207,12 @@
         <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenEmulator.as" />
         <option value="$PROJECT_DIR$/src/demo/ui/DeviceUI.as" />
         <option value="$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenSpecifier.as" />
-        <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as" />
         <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYezz.as" />
         <option value="$PROJECT_DIR$/bin-assets/sprites.xml" />
         <option value="$PROJECT_DIR$/bin-assets/Roboto-Medium.fnt" />
         <option value="$PROJECT_DIR$/src/demo/assets/Roboto-Regular.fnt" />
         <option value="$PROJECT_DIR$/src/demo/assets/Roboto-Bold.fnt" />
         <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/assets/sprites.xml" />
-        <option value="$PROJECT_DIR$/src/demo/Boot.as" />
-        <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as" />
         <option value="$PROJECT_DIR$/src/demo/StarlingRoot.as" />
         <option value="$PROJECT_DIR$/src/demo/assets/sprites.xml" />
         <option value="$PROJECT_DIR$/src/demo/assets/RobotoBold.fnt" />
@@ -168,7 +223,20 @@
         <option value="$PROJECT_DIR$/spritesheet/RobotoRegular.fnt" />
         <option value="$PROJECT_DIR$/src/demo/Assets.as" />
         <option value="$PROJECT_DIR$/src/demo/ui/MainScreen.as" />
+        <option value="$PROJECT_DIR$/feathers-demo/src/Boot.as" />
+        <option value="$PROJECT_DIR$/feathers-demo/src/FeathersRoot.as" />
+        <option value="$PROJECT_DIR$/feathers-demo/src/AppHelper.as" />
+        <option value="$PROJECT_DIR$/descriptor.xml" />
+        <option value="$PROJECT_DIR$/../../libs/feathers/source/feathers/utils/ScreenDensityScaleFactorManager.as" />
+        <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as" />
+        <option value="$PROJECT_DIR$/../../libs/feathers/source/feathers/system/DeviceCapabilities.as" />
+        <option value="$PROJECT_DIR$/feathers-demo/src/LayoutExplorer.as" />
+        <option value="$PROJECT_DIR$/src/demo/Boot.as" />
+        <option value="$PROJECT_DIR$/feathers-demo/src/ComponentsExplorer.as" />
+        <option value="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/Main.as" />
+        <option value="$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -180,7 +248,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="105" />
+    <option name="x" value="71" />
     <option name="y" value="22" />
     <option name="width" value="1369" />
     <option name="height" value="878" />
@@ -203,8 +271,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,55 +280,16 @@
             </path>
             <path>
               <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="adl-emulator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="adl-emulator" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="spritesheet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adl-screen-emu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="screen-emulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,21 +309,23 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/brands" />
-      <recent name="$PROJECT_DIR$/src/demo" />
-      <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections" />
-    </key>
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="demo" />
-      <recent name="demo.ui" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl" />
       <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections" />
       <recent name="$PROJECT_DIR$/src/demo" />
       <recent name="$PROJECT_DIR$/src/demo/ui" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="" />
+      <recent name="demo" />
+      <recent name="demo.ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer" />
+      <recent name="$PROJECT_DIR$/feathers-demo/src" />
+      <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/brands" />
+      <recent name="$PROJECT_DIR$/src/demo" />
+      <recent name="$PROJECT_DIR$/src/com/roipeker/utils/adl/collections" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,7 +340,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flash App.feathers-demo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -351,6 +380,10 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Flash App.run adl" />
+      <item index="1" class="java.lang.String" itemvalue="Flash App.feathers-demo" />
+    </list>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -373,16 +406,16 @@
       <workItem from="1529637649850" duration="14323000" />
       <workItem from="1529704703610" duration="3346000" />
       <workItem from="1529708986036" duration="5401000" />
-      <workItem from="1529714514493" duration="5439000" />
+      <workItem from="1529714514493" duration="6641000" />
+      <workItem from="1529765279777" duration="19080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28509000" />
+    <option name="totallyTimeSpent" value="48791000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="105" y="22" width="1369" height="878" extended-state="0" />
-    <editor active="true" />
+    <frame x="71" y="22" width="1369" height="878" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -390,28 +423,28 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="205" y="122" width="1169" height="678" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2245667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22758101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28421053" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="205" y="122" width="1169" height="678" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,155 +460,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sprite-sheet/sprites.xml" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesAndroid.as" />
-    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/collections/ScreenTypesIOS.as" />
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAllview.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3367">
-          <caret line="215" column="34" lean-forward="false" selection-start-line="215" selection-start-column="34" selection-end-line="215" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAcer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionMotorola.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="857" column="5" lean-forward="true" selection-start-line="857" selection-start-column="5" selection-end-line="857" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionKyocera.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-531">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionHaier.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGigabyte.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2107">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/MyDeviceCollection.as" />
-    <entry file="jar://$PROJECT_DIR$/../../../sdks/air/air_sdk_30.0.0.107/frameworks/libs/air/airglobal.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="3461" column="47" lean-forward="false" selection-start-line="3461" selection-start-column="45" selection-end-line="3461" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionCoolpad.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1432">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBQ.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAmazon.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionBlackBerry.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionApple.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="181" column="82" lean-forward="false" selection-start-line="181" selection-start-column="79" selection-end-line="181" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roipeker/utils/adl/ScreenDefinition.as" />
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionGoogle.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionSpice.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionUnnecto.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-982">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionYezz.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/brands/CollectionAlcatel.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1901">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/collections/DeviceBrands.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin-assets/sprites.xml" />
     <entry file="file://$PROJECT_DIR$/bin-assets/Roboto-Medium.fnt" />
     <entry file="jar://$PROJECT_DIR$/libs/starling.swc!/library.swf">
@@ -586,101 +470,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/assets/Roboto-Regular.fnt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/assets/Roboto-Medium.fnt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/assets/Roboto-Bold.fnt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/Roboto-Regular.fnt" />
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/Roboto-Medium.fnt" />
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/Roboto-Bold.fnt" />
     <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/assets/sprites.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/descriptor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="126" column="30" lean-forward="false" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="396" column="24" lean-forward="false" selection-start-line="396" selection-start-column="24" selection-end-line="396" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenSpecifier.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="113" column="81" lean-forward="false" selection-start-line="113" selection-start-column="75" selection-end-line="113" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="105" column="40" lean-forward="false" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
-          <folding>
-            <element signature="e#300#345#0" expanded="true" />
-            <element signature="e#13710#13743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/StarlingRoot.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="59" column="69" lean-forward="false" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#279#324#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/assets/sprites.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/assets/sprites copy.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/assets/RobotoMedium.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/sprites copy.png" />
+    <entry file="file://$PROJECT_DIR$/src/demo/assets/RobotoMedium.png" />
     <entry file="file://$PROJECT_DIR$/src/demo/assets/RobotoRegular.fnt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,17 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/Assets.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-          <folding>
-            <element signature="e#280#327#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,23 +548,278 @@
         <state relative-caret-position="300">
           <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
-            <element signature="e#282#327#0" expanded="true" />
+            <element signature="e#282#327#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/Boot.as">
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/FeathersRoot.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1179">
-          <caret line="90" column="37" lean-forward="false" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+        <state relative-caret-position="45">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/source/ComponentsExplorer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/ListSettings.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/AppHelper.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../sdks/air/air_sdk_30.0.0.107/frameworks/libs/air/airglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="249" column="21" lean-forward="false" selection-start-line="249" selection-start-column="21" selection-end-line="249" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenSpecifier.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/Boot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/feathers.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="8363" column="25" lean-forward="false" selection-start-line="8363" selection-start-column="25" selection-end-line="8363" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libs/feathers/source/feathers/utils/display/ScreenDensityScaleCalculator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libs/feathers/source/feathers/utils/ScreenDensityScaleFactorManager.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="226" column="102" lean-forward="false" selection-start-line="226" selection-start-column="102" selection-end-line="226" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/data/EmbeddedAssets.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/ScreenID.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libs/feathers/source/feathers/controls/supportClasses/BaseScreenNavigator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="647" column="27" lean-forward="false" selection-start-line="647" selection-start-column="27" selection-end-line="647" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libs/feathers/source/feathers/controls/StackScreenNavigator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="650" column="63" lean-forward="true" selection-start-line="650" selection-start-column="63" selection-end-line="650" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libs/feathers/source/feathers/core/FeathersControl.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="2843" column="33" lean-forward="true" selection-start-line="2843" selection-start-column="33" selection-end-line="2843" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libs/feathers/source/feathers/controls/Drawers.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="550" column="11" lean-forward="true" selection-start-line="550" selection-start-column="11" selection-end-line="550" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libs/feathers/source/feathers/system/DeviceCapabilities.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="167" column="31" lean-forward="false" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/LayoutExplorer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="138" column="41" lean-forward="false" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/bkp/Boot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/feathers/examples/layoutExplorer/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="215" column="0" lean-forward="true" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/bkp/ComponentsExplorer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="38" column="44" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="38" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ScreenEmulator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="115" column="26" lean-forward="false" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/ComponentsExplorer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="e#10#55#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/StarlingRoot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="52" column="63" lean-forward="false" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#279#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adl-emulator/src/com/roipeker/utils/adl/ui/DeviceUI.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="223" column="31" lean-forward="false" selection-start-line="223" selection-start-column="31" selection-end-line="223" selection-end-column="31" />
+          <folding>
+            <element signature="e#300#345#0" expanded="true" />
+            <element signature="e#14726#14759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feathers-demo/src/feathers/examples/componentsExplorer/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2841">
+          <caret line="224" column="24" lean-forward="true" selection-start-line="224" selection-start-column="24" selection-end-line="224" selection-end-column="24" />
+          <folding>
+            <element signature="e#47#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/Assets.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="171" column="22" lean-forward="false" selection-start-line="171" selection-start-column="22" selection-end-line="171" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/Boot.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -826,7 +877,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>swc|adl-emulator</last-edited>
+          <last-edited>feathers-demo|feathers-demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

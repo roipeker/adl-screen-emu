@@ -24,18 +24,15 @@ public class Boot extends Sprite {
         stage.align = StageAlign.TOP_LEFT;
         stage.scaleMode = StageScaleMode.NO_SCALE;
 
+        screen = ScreenEmulator.instance;
+        screen.init(stage, -40, -40, true, ScreenEmulator.ORIENTATION_ANY);
+        screen.emulate( DeviceBrands.apple.ipad );
+
         loaderInfo.addEventListener(Event.COMPLETE, onLoaderInfoComplete);
     }
 
     private function onLoaderInfoComplete(event:Event):void {
-
-        screen = ScreenEmulator.instance;
-
         // For size arguments details, check screen.constrainADLSize()
-        screen.init(stage, -20, -20, true, ScreenEmulator.ORIENTATION_ANY);
-
-        screen.emulate(DeviceBrands.apple.iphone_6);
-
         starling = new Starling(StarlingRoot, stage, screen.getViewPort());
         starling.stage.stageWidth = screen.stageWidthPoints;
         starling.stage.stageHeight = screen.stageHeightPoints;
@@ -87,8 +84,14 @@ public class Boot extends Sprite {
                     screen.isLandscape() ? screen.portrait() : screen.landscape();
                 }
                 break;
+            case Keyboard.D:
+                DeviceUI.instance.debugIPhoneXSize = !DeviceUI.instance.debugIPhoneXSize;
+                break;
             case Keyboard.S:
-                DeviceUI.instance.debugIPhoneXSize = !DeviceUI.instance.debugIPhoneXSize ;
+                DeviceUI.instance.showStatusbar = !DeviceUI.instance.showStatusbar;
+                break;
+            case Keyboard.N:
+                DeviceUI.instance.showNavbar = !DeviceUI.instance.showNavbar;
                 break;
         }
     }
@@ -99,7 +102,6 @@ public class Boot extends Sprite {
             starling.stage.stageWidth = screen.stageWidthPoints;
             starling.stage.stageHeight = screen.stageHeightPoints;
         }
-
     }
 }
 }

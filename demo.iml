@@ -2,13 +2,13 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="mobile">
     <configurations>
-      <configuration name="mobile" target-platform="Mobile" pure-as="true" main-class="demo.Boot" output-file="app.swf" output-folder="$MODULE_DIR$/bin-debug">
+      <configuration name="mobile" target-platform="Mobile" pure-as="true" main-class="demo.Boot" output-file="starling-demo.swf" output-folder="$MODULE_DIR$/bin-debug">
         <dependencies target-player="30.0">
           <entries>
-            <entry library-id="31ecdf6f-b3ea-4265-abd1-1dae518b9411">
+            <entry module-name="adl-emulator" build-configuration-name="swc">
               <dependency linkage="Merged" />
             </entry>
-            <entry module-name="adl-emulator" build-configuration-name="swc">
+            <entry library-id="25f7c5c3-82f9-44f0-b093-9d30f20469fa">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -19,7 +19,7 @@
           <option name="additionalOptions" value="-swf-version=37" />
         </compiler-options>
         <packaging-air-desktop />
-        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/descriptor.xml" package-file-name="demo" />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/descriptor.xml" package-file-name="starling-demo" />
         <packaging-ios package-file-name="Boot" />
       </configuration>
     </configurations>
@@ -37,13 +37,12 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="31ecdf6f-b3ea-4265-abd1-1dae518b9411" />
+        <properties id="25f7c5c3-82f9-44f0-b093-9d30f20469fa" />
         <CLASSES>
-          <root url="file://$MODULE_DIR$/libs" />
+          <root url="jar://$MODULE_DIR$/libs/starling.swc!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="adl-emulator" exported="" />

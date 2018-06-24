@@ -53,6 +53,7 @@ public class DeviceUI extends Sprite {
     private var _transparentStatusbarBackground:Boolean;
     private var _transparentNavbarBackground:Boolean;
     private var _showStatusbar:Boolean;
+    private var _showNavbar:Boolean;
     private var _debugIPhoneXSize:Boolean;
 
 //    Top: 0pt
@@ -72,15 +73,41 @@ public class DeviceUI extends Sprite {
             throw new Error("You should not create more than 1 Device UI... and keep it on the stage. Use DeviceUI.instance");
             return;
         }
+
+        _showStatusbar = true;
+        _showNavbar = true;
+        _statusbarStyle = STATUSBAR_DARK;
+        _transparentStatusbarBackground = false;
+        _transparentNavbarBackground = false;
+        _debugIPhoneXSize = false;
+
         touchGroup = true;
         _instance = this;
         screen = ScreenEmulator.instance;
-        addEventListener(Event.ADDED_TO_STAGE, init);
+        init();
+        addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
     }
 
-    private function init(event:Event):void {
-        removeEventListener(Event.ADDED_TO_STAGE, init);
+    private function onAddedToStage(event:Event):void {
+        removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
 
+        addEventListener(Event.REMOVED_FROM_STAGE, onRemovedFromStage);
+        screen.addEventListener(Event.CHANGE, onDeviceChange, false, 1000);
+        stage.addEventListener(Event.RESIZE, onStageResize);
+
+        // refresh device specs
+        onDeviceChange(null);
+        onStageResize(null);
+    }
+
+    private function onRemovedFromStage(event:Event):void {
+        addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
+        removeEventListener(Event.REMOVED_FROM_STAGE, onRemovedFromStage);
+        screen.removeEventListener(Event.CHANGE, onDeviceChange);
+        stage.removeEventListener(Event.RESIZE, onStageResize);
+    }
+
+    private function init():void {
         statusbar = new Sprite();
 
         statusbar_bg = new Quad(100, 25, 0x333333);
@@ -156,13 +183,6 @@ public class DeviceUI extends Sprite {
         }
 
         statusbarStyle = STATUSBAR_DARK;
-
-        screen.addEventListener(Event.CHANGE, onDeviceChange, false, 1000);
-        stage.addEventListener(Event.RESIZE, onStageResize);
-
-        // refresh device specs
-        onDeviceChange(null);
-        onStageResize(null);
     }
 
     private function buildIphoneXFrame():void {
@@ -199,7 +219,6 @@ public class DeviceUI extends Sprite {
         iphx_sb_imgs[6].x = sh - 44;
     }
 
-
     private function onDeviceChange(event:Object = null):void {
 //      trace("Using device: " + screen.device + "\nstage points:" + screen.stageWidthPoints + "x" + screen.stageHeightPoints + "@" + screen.densityScale);
         statusbar_bg.visible = true;
@@ -210,7 +229,7 @@ public class DeviceUI extends Sprite {
             statusbar_bg.height = _statusbarHeight;
             statusbarIOS.visible = false;
             statusbarAND.visible = true;
-            navbar.visible = true;
+            navbar.visible = _showNavbar;
             iphoneX.visible = false;
         } else {
 
@@ -239,8 +258,8 @@ public class DeviceUI extends Sprite {
     private function onStageResize(event:Event):void {
         var sw:int = stage.stageWidth;
         var sh:int = stage.stageHeight;
-
         statusbar_bg.width = sw;
+        trace('stage reisze', sw, sh);
         if (screen.device.isAndroid) {
             and_sb_imgs[0].x = 8;
             and_sb_imgs[0].y = 5;
@@ -283,7 +302,7 @@ public class DeviceUI extends Sprite {
                 iphx_sb_imgs[2].y = sh - 9;
 
                 // safe areas.
-                iphx_sb_imgs[4].width = sw ;
+                iphx_sb_imgs[4].width = sw;
                 iphx_sb_imgs[4].height = _navbarHeight;
                 iphx_sb_imgs[4].y = sh - iphx_sb_imgs[4].height;
 
@@ -382,6 +401,15 @@ public class DeviceUI extends Sprite {
         statusbar.visible = value;
     }
 
+    public function get showNavbar():Boolean {
+        return _showNavbar;
+    }
+
+    public function set showNavbar(value:Boolean):void {
+        _showNavbar = value;
+        navbar.visible = value;
+    }
+
     public function get transparentNavbarBackground():Boolean {
         return _transparentNavbarBackground;
     }
@@ -413,6 +441,7 @@ public class DeviceUI extends Sprite {
     public function get leftRightSafeArea():int {
         return _leftRightSafeArea;
     }
+
 }
 }
 

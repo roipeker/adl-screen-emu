@@ -4,6 +4,8 @@ bin-release/
 [Oo]bj/
 #[Bb]in/
 
+feathers-demo/bin-debug
+
 # Other files and folders
 .settings/
 

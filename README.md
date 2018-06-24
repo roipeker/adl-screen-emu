@@ -3,4 +3,6 @@ Change Adobe AIR's adl window resize at runtime, useful to test multiple screen 
 
 You can modify descriptor.xml "aspectRatio" and "autoOrients", and ScreenEmulator will override if required.
 
+- Feathers' ComponentExplorer demo is included.
+
 Enjoy.

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="feathers-demo">
+    <configurations>
+      <configuration name="feathers-demo" target-platform="Mobile" pure-as="true" main-class="ComponentsExplorer" output-file="feathers-demo.swf" output-folder="$MODULE_DIR$/bin-debug">
+        <dependencies target-player="30.0">
+          <entries>
+            <entry library-id="d633a43a-3f4c-4912-a188-6298db1b8c04">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="adl-emulator" build-configuration-name="swc">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="0079c352-05fe-4ea8-a89e-de682f1f0807">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="8fb7485e-4f6e-42a7-a43f-12e94f25d818">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="air_sdk_30.0.0.107" />
+        </dependencies>
+        <compiler-options>
+          <option name="resourceFilesMode" value="None" />
+          <option name="additionalOptions" value="-swf-version=37" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/../descriptor.xml" package-file-name="feathers-demo" />
+        <packaging-ios package-file-name="Boot" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="air_sdk_30.0.0.107" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="d633a43a-3f4c-4912-a188-6298db1b8c04" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../libs/starling.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="adl-emulator" exported="" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="0079c352-05fe-4ea8-a89e-de682f1f0807" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../libs/MetalWorksMobileTheme.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="8fb7485e-4f6e-42a7-a43f-12e94f25d818" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../libs/feathers.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
