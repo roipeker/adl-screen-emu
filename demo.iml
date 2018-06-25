@@ -8,7 +8,7 @@
             <entry module-name="adl-emulator" build-configuration-name="swc">
               <dependency linkage="Merged" />
             </entry>
-            <entry library-id="25f7c5c3-82f9-44f0-b093-9d30f20469fa">
+            <entry library-id="20759052-d9f7-4877-b6cb-2efa9d08735d">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -35,9 +35,10 @@
     </content>
     <orderEntry type="jdk" jdkName="air_sdk_30.0.0.107" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="adl-emulator" exported="" />
     <orderEntry type="module-library" exported="">
       <library type="flex">
-        <properties id="25f7c5c3-82f9-44f0-b093-9d30f20469fa" />
+        <properties id="20759052-d9f7-4877-b6cb-2efa9d08735d" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/starling.swc!/" />
         </CLASSES>
@@ -45,6 +46,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="adl-emulator" exported="" />
   </component>
 </module>

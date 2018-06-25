@@ -4,12 +4,20 @@ import com.roipeker.utils.adl.ScreenEmulator;
 import com.roipeker.utils.adl.collections.DeviceBrands;
 import com.roipeker.utils.adl.ui.DeviceUI;
 
+import flash.display.BitmapData;
+import flash.display.PNGEncoderOptions;
 import flash.display.Sprite;
 import flash.display.StageAlign;
 import flash.display.StageScaleMode;
 import flash.events.Event;
 import flash.events.KeyboardEvent;
+import flash.filesystem.File;
+import flash.filesystem.FileMode;
+import flash.filesystem.FileStream;
+import flash.geom.Rectangle;
 import flash.ui.Keyboard;
+import flash.utils.ByteArray;
+import flash.utils.setTimeout;
 
 import starling.core.Starling;
 
@@ -26,7 +34,7 @@ public class Boot extends Sprite {
 
         screen = ScreenEmulator.instance;
         screen.init(stage, -40, -40, true, ScreenEmulator.ORIENTATION_ANY);
-        screen.emulate( DeviceBrands.apple.ipad );
+        screen.emulate(DeviceBrands.apple.iphone_6_plus);
 
         loaderInfo.addEventListener(Event.COMPLETE, onLoaderInfoComplete);
     }
@@ -68,7 +76,8 @@ public class Boot extends Sprite {
                 screen.emulate(DeviceBrands.apple.ipad_pro_12_9_2017);
                 break;
             case Keyboard.NUMBER_7:
-                screen.emulate(DeviceBrands.google.pixel);
+//                screen.emulate(DeviceBrands.google.pixel);
+                screen.emulate(DeviceBrands.apple.ipad);
                 break;
             case Keyboard.NUMBER_8:
                 screen.emulate(DeviceBrands.htc.one);
@@ -93,6 +102,52 @@ public class Boot extends Sprite {
             case Keyboard.N:
                 DeviceUI.instance.showNavbar = !DeviceUI.instance.showNavbar;
                 break;
+            case Keyboard.P:
+                printScreen();
+                break;
+        }
+    }
+
+    /**
+     * Useful to make iOS Splashscreens for multiple resolutions based on the initial screen
+     * of your app.
+     */
+    private function printScreen():void {
+
+        // width/height is adjusted to the orientation of ScreenEmulator.
+        var tw:int = screen.deviceStageWidth;
+        var th:int = screen.deviceStageHeight;
+
+        DeviceUI.instance.visible = false;
+
+        var viewport:Rectangle = starling.viewPort.clone();
+        var scale:Number = starling.painter.backBufferScaleFactor;
+        screen.resizeStage(tw / scale, th / scale);
+
+        setTimeout(stageDimensionAdjusted, 50);
+
+        function stageDimensionAdjusted() {
+            var bd:BitmapData = new BitmapData(tw, th);
+            starling.stage.drawToBitmapData(bd, starling.stage.color, 1);
+
+            // todo: resolve splash screen names.
+            var name:String = 'screenshot-' + new Date().toString() + '.png';
+            var file:File = File.desktopDirectory.resolvePath(name);
+
+            // save image to Desktop.
+            var ba:ByteArray = new ByteArray();
+            bd.encode(bd.rect, new PNGEncoderOptions(false), ba);
+            var fs:FileStream = new FileStream();
+            fs.open(file, FileMode.WRITE);
+            fs.writeBytes(ba);
+            fs.close();
+            ba.clear();
+            bd.dispose();
+
+            DeviceUI.instance.visible = true;
+
+            // roll back the stage dimensions.
+            screen.resizeStage(viewport.width, viewport.height);
         }
     }
 

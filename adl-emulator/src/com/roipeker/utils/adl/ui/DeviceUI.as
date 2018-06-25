@@ -76,7 +76,7 @@ public class DeviceUI extends Sprite {
 
         _showStatusbar = true;
         _showNavbar = true;
-        _statusbarStyle = STATUSBAR_DARK;
+        _statusbarStyle = null;
         _transparentStatusbarBackground = false;
         _transparentNavbarBackground = false;
         _debugIPhoneXSize = false;
@@ -259,7 +259,6 @@ public class DeviceUI extends Sprite {
         var sw:int = stage.stageWidth;
         var sh:int = stage.stageHeight;
         statusbar_bg.width = sw;
-        trace('stage reisze', sw, sh);
         if (screen.device.isAndroid) {
             and_sb_imgs[0].x = 8;
             and_sb_imgs[0].y = 5;
@@ -345,7 +344,6 @@ public class DeviceUI extends Sprite {
     }
 
     public function set statusbarStyle(value:String):void {
-        if (_statusbarStyle == value) return;
         _statusbarStyle = value;
         var color:uint;
         if (_statusbarStyle == STATUSBAR_LIGHT) {
@@ -364,6 +362,7 @@ public class DeviceUI extends Sprite {
     }
 
     public function set transparentStatusbarBackground(value:Boolean):void {
+        trace('setting background!');
         _transparentStatusbarBackground = value;
         statusbar_bg.alpha = value ? 0 : 1;
     }

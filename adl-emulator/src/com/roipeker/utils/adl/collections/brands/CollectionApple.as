@@ -139,7 +139,8 @@ public class CollectionApple {
 
     private var _iphone_6_plus:ScreenSpecifier;
     public function get iphone_6_plus():ScreenSpecifier {
-        return _iphone_6_plus ||= new ScreenSpecifier("Apple iPhone 6 Plus", 1080, 1920, 401, "iOS 11.4", "phone", 5.5, "Apple", "iphone_6_plus");
+//        return _iphone_6_plus ||= new ScreenSpecifier("Apple iPhone 6 Plus", 1080, 1920, 401, "iOS 11.4", "phone", 5.5, "Apple", "iphone_6_plus");
+        return _iphone_6_plus ||= new ScreenSpecifier("Apple iPhone 6 Plus", 1242, 2208, 401, "iOS 11.4", "phone", 5.5, "Apple", "iphone_6_plus");
     }
 
     private var _iphone_6s:ScreenSpecifier;
@@ -149,7 +150,7 @@ public class CollectionApple {
 
     private var _iphone_6s_plus:ScreenSpecifier;
     public function get iphone_6s_plus():ScreenSpecifier {
-        return _iphone_6s_plus ||= new ScreenSpecifier("Apple iPhone 6s Plus", 1080, 1920, 401, "iOS 11.4", "phone", 5.5, "Apple", "iphone_6s_plus");
+        return _iphone_6s_plus ||= new ScreenSpecifier("Apple iPhone 6s Plus",  1242, 2208, 401, "iOS 11.4", "phone", 5.5, "Apple", "iphone_6s_plus");
     }
 
     private var _iphone_7:ScreenSpecifier;
@@ -159,7 +160,7 @@ public class CollectionApple {
 
     private var _iphone_7_plus:ScreenSpecifier;
     public function get iphone_7_plus():ScreenSpecifier {
-        return _iphone_7_plus ||= new ScreenSpecifier("Apple iPhone 7 Plus", 1080, 1920, 401, "iOS 11.4", "phone", 5.5, "Apple", "iphone_7_plus");
+        return _iphone_7_plus ||= new ScreenSpecifier("Apple iPhone 7 Plus",  1242, 2208, 401, "iOS 11.4", "phone", 5.5, "Apple", "iphone_7_plus");
     }
 
     private var _iphone_8:ScreenSpecifier;
@@ -169,7 +170,7 @@ public class CollectionApple {
 
     private var _iphone_8_plus:ScreenSpecifier;
     public function get iphone_8_plus():ScreenSpecifier {
-        return _iphone_8_plus ||= new ScreenSpecifier("Apple iPhone 8 Plus", 1080, 1920, 401, "iOS 11.4", "phone", 5.5, "Apple", "iphone_8_plus");
+        return _iphone_8_plus ||= new ScreenSpecifier("Apple iPhone 8 Plus",  1242, 2208,401, "iOS 11.4", "phone", 5.5, "Apple", "iphone_8_plus");
     }
 
     private var _iphone_se:ScreenSpecifier;

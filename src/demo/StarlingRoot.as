@@ -26,11 +26,10 @@ public class StarlingRoot extends Sprite {
         // plug ur UI under the DeviceUI.instance
         // is just to demo the ScreenEmulator functionality.
         stage.addChild(DeviceUI.instance);
-//        stage.color = 0x232C3D;
 
         // You can tweak some basic style.
-        DeviceUI.instance.statusbarStyle = DeviceUI.STATUSBAR_DARK;
-        DeviceUI.instance.transparentStatusbarBackground = false ;
+//        DeviceUI.instance.statusbarStyle = DeviceUI.STATUSBAR_DARK;
+//        DeviceUI.instance.transparentStatusbarBackground = false ;
 //        DeviceUI.instance.transparentNavbarBackground = true ;
 //        DeviceUI.instance.navbarButtonsColor = 0xff0000 ;
 //        DeviceUI.instance.statusbarBackgroundColor = 0xcc0000 ;
@@ -44,6 +43,10 @@ public class StarlingRoot extends Sprite {
 
         stage.addEventListener(Event.RESIZE, onStageResize);
         ScreenEmulator.instance.addEventListener(Event.CHANGE, onDeviceChange);
+
+        if( ScreenEmulator.instance.device ){
+            onDeviceChange();
+        }
     }
 
     private function onStageResize(event:Event):void {
