@@ -391,6 +391,12 @@ public class ScreenEmulator extends EventDispatcher {
         return isLandscape() ? _device.w : _device.h;
     }
 
+    // Useful to scale things on nativeStage for Starling (as contentScaleFactor will fail).
+    // like StageText.
+    public function get stageScale():Number {
+        return viewportWidth / stageWidthPoints;
+    }
+
     public function get stageOrientation():String {
         return _eventOrientation ? _eventOrientation : _stage.orientation;
     }
